@@ -1,0 +1,14 @@
+Proyecto : Alumno
+
+Grupos
+	-id
+	-cod_grupo
+	-descripcion
+
+Alumno
+	-id
+	-nombre
+	-apellido1
+	-apellido2
+	-num_matricula
+	-grupo_id
