@@ -2,24 +2,24 @@ package com.example.alumnos.model.entity;
 
 public class Grupo {
 
-    private int id;
+    private Integer id;
     private int cod_grupo;
     private String descripcion;
 
     public Grupo() {
     }
 
-    public Grupo(int id, int cod_grupo, String descripcion) {
+    public Grupo(Integer id, int cod_grupo, String descripcion) {
         this.id = id;
         this.cod_grupo = cod_grupo;
         this.descripcion = descripcion;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
